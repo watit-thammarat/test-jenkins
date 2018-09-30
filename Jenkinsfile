@@ -1,6 +1,6 @@
-node('node') {
+node {
 	stage('Git') {
-		git 'https://github.com/gustavoapolinario/microservices-node-example-todo-frontend.git'
+		git 'https://github.com/watit-thammarat/test-jenkins'
 	}
 	stage('Build') {
 		sh 'npm install'
